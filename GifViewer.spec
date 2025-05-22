@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('mewing-cat.gif', '.')],
+    datas=[('mewingcat.gif', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

@@ -69,7 +69,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     # Укажите абсолютный путь к GIF
-    gif_path = "C:\Games\mewingcat\mewing-cat.gif"  # Замените на реальный путь
+    gif_path = "C:\Games\mewing\src\mewingcat.gif"  # Замените на реальный путь
     
     # Проверка файла
     try:
